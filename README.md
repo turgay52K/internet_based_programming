@@ -1,4 +1,5 @@
-# internet_based_programming
+# internet_based_programming  
+project name= RATE IT!
 Öğrenci Bilgileri:
 Ad-soyad: Turgay Karademir 
 Öğrenci No: 2211502227
