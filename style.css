@@ -1,45 +1,40 @@
 *{
         font-family: Arial, Helvetica, sans-serif;
-        background-color:  #1c2230;
+        background-color:  #c7d7fd;
 }
 h1 {color:black;
         font-size: 40px;
         text-align:center;
         font-family:verdana;
-        border: 10px solid;border-color: rgb(252, 0, 0);padding: 10px;
-
 }
 main {color:black;
         font-size: 40px;
         text-align: start;
 }
-body{background-color:rgba(228, 234, 221, 0.997);}
-ul#navbar{
-        display: flex;
-        flex-direction: row;
-}
+body{background-color:rgba(100, 252, 222, 0.997);}
+
+
 ul#navbar>dt{
-        text-align: center;
-        padding-left: 30px;
+        display: inline;
+        margin: 15px;
+        padding: 5px ;
 }
-div.navbar{
-        display: flex;
-        flex-direction: column;
-        color: rgb(255, 4, 0);
+div.l1{
+        display: inline;
+        float: left;
+       
 }
 
 div.contents>div{
         border:2px solid rgb(255, 255, 255);
-        padding: 200px;
-        margin: 50px;
-        background-color: aliceblue;
-        color: aliceblue;
+        padding: 150px;
+        margin: 50px;  
+        color: rgb(0, 0, 0);
 }
 
 div.contents{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
 }
 
