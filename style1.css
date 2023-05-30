@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
-
+/*!base*/
 *{
     margin:0;
 }
 body{
-    height: 100vh;
+    height: 200vh;
     font-family: 'Electrolize', sans-serif;
 }
+/*base*/
+
+/*navbar*/
 .navbar{
     background-color: black;
-    height: 60px;
+    height: 50px;
     color: rgb(255, 255, 255);
     position: sticky;
     top: 0;
@@ -39,10 +42,49 @@ body{
 .menu-list-item:hover{
     font-size: large;
 }
+.profile-text-container{
+    display: flex;
+    align-items: center;
+}
 
+/*sidebar*/
 .sidebar{
     background-color: black;
     color: rgb(255, 255, 255);
     height: 100%;
     width: 60px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    row-gap: 40px;
+    position: fixed;
+    top: 0;
+    
+}
+.sidebar i{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+/*sidebar*/
+
+/*featured*/
+.content-wrapper{
+    margin-left:70px ;
+}
+
+.movie-list-filter{
+    margin:20px 0 ;
+    padding: 20px;
+
+}
+.movie-list-filter select{
+    background-color: black;
+    color: white;
+    padding: 7px 0;
+    width: 125px;
+    text-align: center;
+    
 }
