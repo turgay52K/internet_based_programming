@@ -1,4 +1,3 @@
-const fs = require('fs');
 const arrows = document.querySelectorAll(".arrow");
 const movieLists = document.querySelectorAll(".movie-list");
 
@@ -14,26 +13,8 @@ arrows.forEach((arrow, i) => {
 
     } else {
       movieLists[i].style.transform = "translateX(0)";
-      clickCounter = 0;
     }
   });
-});
-
-
-const fs = require('fs');
-const dizinYolu = 'C:\Users\Turgay\Documents\GitHub\internet_based_programming\images';
-
-fs.readdir(dizinYolu, (err, dosyalar) => {
-  if (err) {
-    console.error('Dizin okunamadı:', err);
-    return;
-  }
-
-  const fotoDosyalar = dosyalar.filter((dosya) => {
-    return dosya.endsWith('.jpg') || dosya.endsWith('.jpeg') || dosya.endsWith('.png');
-  });
-
-  console.log('Fotoğraf dosyaları:', fotoDosyalar);
 });
 
 
