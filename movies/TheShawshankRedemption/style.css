@@ -90,9 +90,14 @@ body{
     left: 70px;
 
 }
+.movie-artist h2{
+    color: #ff0039;
+}
+.movie-artist p{
+    color: #ffffff;
+}
 .movie-artist{
     padding-top: 25px;
-    color: #ff0039;
     height:85px ;
 
 }
