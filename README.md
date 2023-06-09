@@ -11,3 +11,5 @@ Hesap açma kısmı Google ve Facebook desteklidir.
 Misafir modunda da yorum yapılabilir.
 Filmi izlemek için link yönlendirmeleri yapılcaktır.
 Dış kaynak yönlendirmeleri yeni sekmede açılacaktır.
+
+Proje sürecinde HTML,CSS ve JavaScript uygulamaları kullanılmıştır.
